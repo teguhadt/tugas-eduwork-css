@@ -1,0 +1,210 @@
+body{
+  background-color: white;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+main {
+  margin: auto;
+  display: inline-block;
+  }
+
+.left{
+  float: left;
+  margin-top: -2px;
+  margin-left: 227px;
+}
+
+.phone {
+  width: 420px;
+}
+
+.right{
+  float: right;
+  margin-left: 5px;
+  margin-top: 40px;
+}
+
+#p1 {
+  display: block;
+  border: 1px solid #dedede;
+  background-color: #fafafa;
+  border-radius: 2px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+}
+
+.logo {
+width: 170px;
+padding-left: 80px;
+padding-top: 40px;
+padding-bottom: 30px;
+}
+
+form{
+  padding-left: 30px;
+}
+
+#username{
+  width: 250px;
+  padding: 8px;
+  background-color: #fafafa;
+  border: 1px solid #dedede;
+  color: #8a8a8a;
+  font-size: 12px;
+}
+
+#password{
+  margin-top: 5px;
+  width: 250px;
+  padding: 8px;
+  background-color: #fafafa;
+  border: 1px solid #dedede;
+  color: #8a8a8a;
+  font-size: 12px;
+}
+
+button {
+  background-color: #4cb4f8;
+  color: white;
+  padding: 8px 115px;
+  border: none;
+  font-weight: bolder;
+  margin-top: 17px;
+  border-radius: 8px;
+}
+
+.garis{
+  text-align: center;
+  margin-top: -2px;
+}
+
+.garis h5{
+  position: relative;
+  display: inline-block;
+}
+
+.garis h5:before{
+  content: " ";
+	position: absolute;
+  border-bottom: 1px solid #dedede;
+  background-color: #fafafa;
+	width: 100px;
+	left: -118px;
+	top: 40%;
+}
+
+h5{
+  padding-right: 5px;
+  color: #8a8a8a;
+}
+
+.garis h5:after{
+	content: " ";
+	position: absolute;
+  border-bottom: 1px solid #dedede;
+  background-color: #fafafa;
+	width: 100px;
+	right: -114px;
+	top: 35%;
+}
+
+.facebook{
+  text-align: center;
+  margin-top: 5px;
+  font-weight: -5px;
+}
+
+.facebook a{
+  text-decoration: none;
+  color: #385185;
+  font-size: 14px;
+}
+
+.facebook img{
+  display: inline-block;
+  width: 13px;
+}
+
+.lupa_pass{
+  text-align: center;
+}
+
+.lupa_pass a{
+  text-decoration: none;
+  font-size: small;
+  padding-right: 12px;
+  color: #385185;
+  font-size: 12px;
+}
+
+.p2 {
+  display: block;
+  border: 1px solid #dedede;
+  background-color: #fafafa;
+  border-radius: 2px;
+  padding-right: 40px;
+  padding-bottom: 8px;
+  margin-top: -6px;
+
+}
+
+.buat_akun{
+  text-align: center;
+  font-size: 14px;
+  padding-left: 30px;
+}
+
+.buat_akun a{
+  color: #4cb4f8;
+  text-decoration: none;
+}
+
+.dpt_apk{
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.play-store{
+  display: inline-block;
+  padding-top: -50px;
+  padding-left: 65px;
+  max-width: 105px;
+  margin-right: 5px;
+}
+
+.app-store{
+  height: 37px;
+  max-width: 120px;
+}
+
+footer {
+  width: 1200px;
+  margin-bottom: 60px;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 12px;
+  list-style: none;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+li, a {
+  color: #8a8a8a;
+  text-decoration: none;
+}
+
+footer a{
+  text-decoration: none;
+}
+
+select{
+  font-size: 12px;
+  color: #8a8a8a;
+  border:0px;
+  outline:0px;
+}
